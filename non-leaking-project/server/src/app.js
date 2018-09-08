@@ -10,7 +10,7 @@ console.log('Socket server listening on port 8080');
 setInterval(() => {
   console.log(counter + ' sockets connected');
   const fileName = './dumps/' + Date.now() + '-' + counter + 'sockets.heapsnapshot';
-  heapdump.writeSnapshot(fileName, (err, fileName) => {
+  heapdump.writeSnapshot(fileName, (_err, fileName) => {
     console.log(fileName + ' created.');
   })
 }, 30000);
