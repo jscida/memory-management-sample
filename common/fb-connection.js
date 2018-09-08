@@ -40,6 +40,9 @@ class FbConnection {
   };
 
   off(offData) {
+    if(!offData) {
+      return;
+    }
     const event = offData.event;
     const onEvent = offData.onEvent;
     const childRef = offData.childRef;
