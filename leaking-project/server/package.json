@@ -1,0 +1,17 @@
+{
+  "name": "leaking-code-server",
+  "version": "1.0.0",
+  "engines": {
+    "node": "9.x",
+    "npm": "5.x"
+  },
+  "scripts": {
+    "start": "node src/app"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "firebase-admin": "^5.13.1",
+    "socket.io": "^2.1.1",
+    "heapdump": "^0.3.9"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "leaking-code-client",
+  "version": "1.0.0",
+  "engines": {
+    "node": "9.x",
+    "npm": "5.x"
+  },
+  "scripts": {
+    "start": "node src/app"
+  },
+  "dependencies": {
+    "socket.io-client": "^2.1.1"
+  }
+}
