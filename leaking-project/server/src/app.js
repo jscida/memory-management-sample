@@ -1,6 +1,6 @@
 const heapdump = require('heapdump');
 const io = require('socket.io')(8080);
-const FbConnection = require('../../../common/fb-connection');
+const FbConnection = require('./fb-connection');
 const fbConnection = FbConnection.getInstance();
 
 let counter = 0;
